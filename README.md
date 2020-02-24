@@ -13,3 +13,10 @@
 
 - post: 在 JSBox>=2.3.0 中，如何实现需要 GBK 编码的情况下进行 HTTP POST 并获取结果的示例
 - post(legacy): 在 JSBox<=2.2.0 中，如何实现需要 GBK 编码的情况下 HTTP POST 并获取结果的示例
+
+如何在你的作品中使用:  
+将`URLEncodeUsingGBK.js`放在应用目录，使用如下语句调用:
+
+```js
+const URLEncodeUsingGBK = require("path/to/URLEncodeUsingGBK");
+```
