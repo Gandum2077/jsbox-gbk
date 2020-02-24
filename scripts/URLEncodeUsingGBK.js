@@ -9,7 +9,7 @@ function URLEncodeSingleCharacterUsingGBK(text) {
 }
 
 function URLEncodeUsingGBK(text) {
-  const ignorePattern = /[0-9a-zA-Z"$-_.+!*'(),]/
+  const ignorePattern = /[0-9a-zA-Z$-_.+!*'(),]/
   if (!text) return "";
   let result = "";
   for (let s of text) {
