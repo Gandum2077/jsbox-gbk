@@ -1,5 +1,4 @@
 function URLEncodeSingleCharacterUsingGBK(text) {
-  if (text.length !== 1) throw new Error()
   const string = $objc("NSString").$stringWithString(text);
   const data = string.$dataUsingEncoding(2147485234).rawValue();
   const encoded = data.byteArray
